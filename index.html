@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shravan | Contact Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="contact-card">
+      <div class="eyebrow">GET IN TOUCH</div>
+      <h1>Contact <span>Shravan</span></h1>
+      <p class="intro">Have a question or want to work together? Send me a message using the form below.</p>
+
+      <form id="contactForm">
+        <label for="name">Full name</label>
+        <input id="name" name="name" type="text" placeholder="Enter your name" required>
+
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+        <label for="subject">Subject</label>
+        <input id="subject" name="subject" type="text" placeholder="What is this about?" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit">Send Message <span aria-hidden="true">→</span></button>
+        <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+      </form>
+      <footer>Designed by Shravan Khavanekar · TYBCA-B</footer>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
